@@ -13,7 +13,7 @@ header {
     list-style: none;
     padding: 0;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-around;
 }
 
@@ -118,3 +118,41 @@ td,th{
 .form-group input[type="submit"]:hover {
     background-color: #2f2f33;
 }
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 100;
+}
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 100;
+  }
+  .logo{
+    margin-right:850px;
+    margin-left: 10px;
+   }
+ 
+   nav ul {
+     display: flex;
+     list-style: none;
+     padding: 10px;
+     
+   }
+   
+   nav li {
+     margin-right: 20px;
+   }
+   
+   nav a {
+     color: white;
+     text-decoration: none;
+     transition: color 0.3s;
+     padding: auto;
+   }
+   
+   nav a:hover {
+     color: rgb(17, 74, 245);
+   }
